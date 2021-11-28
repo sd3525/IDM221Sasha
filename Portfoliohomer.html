@@ -1,34 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <title>Portfolio</title>
-</head>
-<body>
-    <h1> SASHA DEMO </h1>
-            <img src="images/portfoliome.jpg" alt="portfoliome">   
-</body>
-    <p> User Experience and Interactive Design student looking to apply my creativity to make functional, intuative, and aesthetically pleasing websites. </p>
-    <h2> CASE STUDIES </h2>
-    <h3> Work 1: </h3>
-    <img src="images/Frame 11.png" alt="instapic">
-    <h2> Instagram Algorithm Curator Redesign</h2>
-    <p> Instagram is an app where users not only share and view photos and videos, but also explore their interests and view content that keeps them…</p>
-    <h3> Work 2: </h3>
-    <img src="images/Frame 10.png" alt="soundcloudpic">
-    <h2> SoundCloud Collaboration Experience Redesign</h2>
-    <p> I was introduced to SoundCloud by a friend who used it as a platform to post music that he produced. Although I loved how there were lots…</p>
-    <h3> Work 3: </h3>
-    <img src="images/Frame 12.2.png" alt="tennis">
-    <h2> Tennis.com Redesign</h2>
-    <p> Tennis.com is the Tennis Channel’s official website. It helps fans stay on top of tennis news like scores, rankings, tv scheduling, and more…</p>
-    <h3> Work 4: </h3>
-    <img src="images/Frame 13.png" alt="travel">
-    <h2> Travel Blog Redesign</h2>
-    <p> My website redesign is for a travel blog known as Adventures of Lil Nicki. Nicki loves to visit remote spots like the mountains of Tajikistan and…</p>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo"></div>
+      <div class="word-spacing">
+        <div>Work</div>
+        <div>Resume</div>
+        <div>Blog</div>
+      </div>
+    </div>
+    <div class="Sasha">SASHA</div>
+    <div class="Demo">DEMO</div>
 
+    <img src="images/me.jpg" alt="portfoliome" />
 
-        
+    <div class="about-me">
+      User Experience and Interactive Design student looking to apply my
+      creativity to make functional, intuative, and aesthetically pleasing
+      websites.
+    </div>
+
+    <div class="my-work">My Work:</div>
+
+    <div class="box">
+      <!-- A div with card class for the card  -->
+      <div class="card">
+        <img src="images/Frame-11.png" alt="instapic" />
+
+        <!-- A div with card__details class to hold the details in the card  -->
+        <div class="card__details"></div>
+        <!-- A div with name class for the name of the card -->
+        <div class="card-title">Instagram Algorithm Curator Redesign</div>
+
+        <div class="card-details">
+          <p>
+            Instagram is an app where users not only share and view photos and
+            videos, but also explore their interests and view content that keeps
+            them…
+          </p>
+        </div>
+        <button class="button">Read more</button>
+      </div>
+    </div>
+
+    <div class="box">
+      <!-- A div with card class for the card  -->
+      <div class="card">
+        <img src="images/Frame10.png" alt="soundcloudpic" />
+
+        <!-- A div with card__details class to hold the details in the card  -->
+        <div class="card__details"></div>
+        <!-- A div with name class for the name of the card -->
+        <div class="card-title">
+          SoundCloud Collaboration Experience Redesign
+        </div>
+
+        <div class="card-details">
+          <p>
+            I was introduced to SoundCloud by a friend who used it as a platform
+            to post music that he produced. Although I loved how there were
+            lots…
+          </p>
+        </div>
+        <button class="button">Read more</button>
+      </div>
+    </div>
+
+    <div class="box">
+      <!-- A div with card class for the card  -->
+      <div class="card">
+        <img src="images/Frame-12.png" alt="tennis" />
+
+        <!-- A div with card__details class to hold the details in the card  -->
+        <div class="card__details"></div>
+        <!-- A div with name class for the name of the card -->
+        <div class="card-title">Tennis.com Redesign</div>
+
+        <div class="card-details">
+          <p>
+            Tennis.com is the Tennis Channel’s official website. It helps fans
+            stay on top of tennis news like scores, rankings, tv scheduling, and
+            more…
+          </p>
+        </div>
+        <button class="button">Read more</button>
+      </div>
+    </div>
+
+    <div class="box">
+      <!-- A div with card class for the card  -->
+      <div class="card">
+        <img src="images/Frame-13.png" alt="travel" />
+
+        <!-- A div with card__details class to hold the details in the card  -->
+        <div class="card__details"></div>
+        <!-- A div with name class for the name of the card -->
+        <div class="card-title">Blog Redesign</div>
+
+        <div class="card-details">
+          <p>
+            My website redesign is for a travel blog known as Adventures of Lil
+            Nicki. Nicki loves to visit remote spots like the mountains of
+            Tajikistan and…
+          </p>
+        </div>
+        <button class="button">Read more</button>
+      </div>
+      <div class="Contact">Contact Me:</div>
+      <div class="container">
+        <div class="image"><img src="images/mailicon.png" /></div>
+        <div class="image"><img src="images/instaicon.png" /></div>
+        <div class="image"><img src="images/linkin.png" /></div>
+      </div>
+    </div>
+  </body>
 </html>
