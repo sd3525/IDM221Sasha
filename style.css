@@ -136,8 +136,8 @@ body {
 
 p {
   font-size: 1rem;
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 html {
@@ -295,6 +295,13 @@ a:link {
   padding-bottom: 1rem;
   padding-left: 2rem;
 }
+
+/* Resume contact spacing */
+.contact-res {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+  }
 
 .mail {
     padding-left: 2rem;
