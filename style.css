@@ -203,6 +203,13 @@ a:link {
   padding-top: 3rem;
 }
 
+.title-photo {
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+
 .card-title {
   font-size: 2rem;
   margin-top: 1.75rem;
@@ -288,6 +295,11 @@ a:link {
   padding-right: 1rem;
   padding-left: 1rem;
 }
+.photo-img {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
 
 .Contact {
   font-size: 1.5rem;
