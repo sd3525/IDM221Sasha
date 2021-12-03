@@ -17,18 +17,52 @@
     />
   </head>
   <body>
-    <div class="header">
+
+ 
+<nav role="navigation">
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="#"><li>Work</li></a>
+      <a href="#"><li>Resume</li></a>
+      <a href="#"><li>Photography</li></a>
+    </ul>
+  </div>
+</nav>
+
+    <!-- <div class="header">
       <div class="logo"></div>
       <div class="word-spacing">
         <div>Work</div>
         <div>Resume</div>
-        <div>Blog</div>
+        <div>Photography</div>
       </div>
-    </div>
+    </div> -->
     <div class="Sasha">SASHA</div>
     <div class="Demo">DEMO</div>
 
-    <img src="images/me.jpg" alt="portfoliome" />
+    <div class="me">
+      <img src="images/me.jpg" alt="portfoliome" />
+    </div>
 
     <div class="about-me">
       User Experience and Interactive Design student looking to apply my
@@ -38,16 +72,20 @@
 
     <div class="my-work">My Work:</div>
 
+    <div class="cs-img">
+ <a href="Instagramredesign.html"> <img src="images/Frame-11.png" alt="instapic" /> </a>
+    </div>
+   
+
     <div class="box">
       <!-- A div with card class for the card  -->
       <div class="card">
-        <img src="images/Frame-11.png" alt="instapic" />
 
         <!-- A div with card__details class to hold the details in the card  -->
         <div class="card__details"></div>
         <!-- A div with name class for the name of the card -->
-        <div class="card-title">Instagram Algorithm Curator Redesign</div>
-
+        <a href="Instagramredesign.html"> <div class="card-title">Instagram Algorithm Curator Redesign</div>
+        </a>
         <div class="card-details">
           <p>
             Instagram is an app where users not only share and view photos and
@@ -55,18 +93,20 @@
             them…
           </p>
         </div>
-        <button class="button">Read more</button>
+        <a href="Instagramredesign.html"> <button class="button">Read more</button> </a>
       </div>
+    </div>
+
+    <div class="cs-img">
+      <img src="images/Frame10.png" alt="soundcloudpic" /> 
     </div>
 
     <div class="box">
       <!-- A div with card class for the card  -->
       <div class="card">
-        <img src="images/Frame10.png" alt="soundcloudpic" />
 
         <!-- A div with card__details class to hold the details in the card  -->
         <div class="card__details"></div>
-        <!-- A div with name class for the name of the card -->
         <div class="card-title">
           SoundCloud Collaboration Experience Redesign
         </div>
@@ -82,14 +122,15 @@
       </div>
     </div>
 
-    <div class="box">
-      <!-- A div with card class for the card  -->
-      <div class="card">
-        <img src="images/Frame-12.png" alt="tennis" />
+    <div class="cs-img">
+      <img src="images/Frame-12.png" alt="tennis" />
+    </div>
 
-        <!-- A div with card__details class to hold the details in the card  -->
+    <div class="box">
+      <div class="card">
+
+       
         <div class="card__details"></div>
-        <!-- A div with name class for the name of the card -->
         <div class="card-title">Tennis.com Redesign</div>
 
         <div class="card-details">
@@ -103,14 +144,15 @@
       </div>
     </div>
 
-    <div class="box">
-      <!-- A div with card class for the card  -->
-      <div class="card">
-        <img src="images/Frame-13.png" alt="travel" />
+    <div class="cs-img">
+      <img src="images/Frame-13.png" alt="travel" />
+    </div>
 
-        <!-- A div with card__details class to hold the details in the card  -->
+    <div class="box">
+      <div class="card">
+
+  
         <div class="card__details"></div>
-        <!-- A div with name class for the name of the card -->
         <div class="card-title">Blog Redesign</div>
 
         <div class="card-details">
@@ -123,8 +165,8 @@
         <button class="button">Read more</button>
       </div>
       <div class="Contact">Contact Me:</div>
+      <div class="mail">sd3525@drexel.edu</div>
       <div class="container">
-        <div class="image"><img src="images/mailicon.png" /></div>
         <div class="image"><img src="images/instaicon.png" /></div>
         <div class="image"><img src="images/linkin.png" /></div>
       </div>
