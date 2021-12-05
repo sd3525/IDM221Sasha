@@ -137,7 +137,7 @@ body {
 p {
   font-size: 1rem;
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 html {
@@ -161,7 +161,7 @@ img {
 
 .Sasha {
   font-size: 5.5rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
   padding-left: 1rem;
   padding-bottom: 0.5rem;
 }
@@ -186,13 +186,13 @@ img {
 }
 
 a:link {
-    color: #f19089;
+    color: #fdfdfd;
     background-color: transparent;
     text-decoration: none;
   }
   
   a:visited {
-    color: #f19089;
+    color: #ffffff;
     background-color: transparent;
     text-decoration: none;
   }
@@ -200,14 +200,14 @@ a:link {
 .Title {
   font-size: 2.5rem;
   padding-left: 2rem;
-  padding-top: 3rem;
+  margin-top: 4rem;
 }
 
 .title-photo {
     font-size: 2.5rem;
     padding-left: 2rem;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 0.5rem;
   }
 
 .card-title {
@@ -222,6 +222,14 @@ a:link {
   margin-bottom: 1.5rem;
   width: 7rem;
 }
+
+.container2 {
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  top: 29px;
+  right: 18px;
+  }
 
 .button {
   background-color: #f19089; /* Pink */
@@ -295,6 +303,37 @@ a:link {
   padding-right: 1rem;
   padding-left: 1rem;
 }
+
+.insta-title {
+    padding-top: 3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .insta-title2 {
+    padding-bottom: 3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+.insta-img {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .sc-img {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .sc-img2 {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
 .photo-img {
     padding-top: 1rem;
     padding-right: 1rem;
@@ -326,6 +365,49 @@ a:link {
 
 }
 
+.p-insta {
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.p-lone {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.p-vid {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.p-insta2 {
+    margin-bottom: 1rem;
+    margin-top: 0.75rem;
+}
+
+.p-instadif {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.p-sc {
+    margin-top: 1.5rem;
+}
+
+.p-sc2 {
+    margin-bottom: 1.5rem;
+}
+
+.p-sc3 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.p-sc4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .h1-res{
     font-size: 2rem;
     margin-bottom: 0.5rem;
@@ -336,9 +418,47 @@ a:link {
     margin-top: 2rem;
 }
 
+.h2-insta{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.h2-sc{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.conclusion{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+}
+
+.overview{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.h2-sc2{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.scoverview{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
 .h3-res{
     font-size: 1.25rem;
-    margin-top: 2rem;
+}
+
+.h3-insta{
+    font-size: 1.25rem;
+    margin-top: 1rem;
 }
 
 .h3-misc{
@@ -347,6 +467,10 @@ a:link {
     margin-bottom: 1.25rem;
 }
 
+.h3-sc{
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+}
 
     
 

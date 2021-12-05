@@ -17,39 +17,44 @@
     />
   </head>
   <body>
-
-     <!--    Made by Erik Terwan    -->
-<!--   24th of November 2015   -->
-<!--        MIT License        -->
-<nav role="navigation">
-    <div id="menuToggle">
-      <!--
+    <!--    Made by Erik Terwan    -->
+    <!--   24th of November 2015   -->
+    <!--        MIT License        -->
+    <nav role="navigation">
+      <div id="menuToggle">
+        <!--
       A fake / hidden checkbox is used as click reciever,
       so you can use the :checked selector on it.
       -->
-      <input type="checkbox" />
-      
-      <!--
+        <input type="checkbox" />
+
+        <!--
       Some spans to act as a hamburger.
       
       They are acting like a real hamburger,
       not that McDonalds stuff.
       -->
-      <span></span>
-      <span></span>
-      <span></span>
-      
-      <!--
+        <span></span>
+        <span></span>
+        <span></span>
+
+
+        <!--
       Too bad the menu has to be inside of the button
       but hey, it's pure CSS magic.
       -->
-      <ul id="menu">
-        <a href="#"><li>Work</li></a>
-        <a href="#"><li>Resume</li></a>
-        <a href="#"><li>Photography</li></a>
-      </ul>
-    </div>
-  </nav>
+        <ul id="menu">
+          <a href="#"><li>Work</li></a>
+          <a href="#"><li>Resume</li></a>
+          <a href="#"><li>Photography</li></a>
+        </ul>
+      </div>
+
+    </nav>
+
+    <div class="container2">
+        <img src="images/Artboard 1.png" alt="logo" />
+      </div>
 
     <!-- <div class="header">
       <div class="logo"></div>
@@ -60,15 +65,17 @@
       </div>
     </div> -->
     <div class="Title">Instagram Algorithm Curator Redesign</div>
-    <div class="article-card">
+    <div class="insta-title">
       <img src="images/Frame-11.png" alt="instapic" />
-      <h2>Overview:</h2>
-      <p>
-        Instagram is an app where users not only share and view photos and
-        videos, but also explore their interests and view content that keeps
-        them entertained.
-      </p>
-      <h2>Problem Statement:</h2>
+    </div>
+    <div class="article-card">
+      <div class="overview">Overview:</div>
+      <div class="p-instadif">
+        Problem Statement: Instagram is an app where users not only share and
+        view photos and videos, but also explore their interests and view
+        content that keeps them entertained.
+      </div>
+      <div class="h2-insta">Problem Statement:</div>
       <p>
         The explore page of Instagram has pictures, videos, and reels (videos
         longer than 60 seconds) that are supposed to reflect the user’s
@@ -77,10 +84,12 @@
         viewpoint through conducting a survey on 10 of my friends who use
         Instagram on a daily basis:
       </p>
-      <div class="cs-img">
-        <img src="images/instadata.jpg" alt="instagraph" />
-      </div>
-      <p>
+    </div>
+    <div class="insta-img">
+      <img src="images/instadata.jpg" alt="instagraph" />
+    </div>
+    <div class="article-card">
+      <div class="p-insta">
         These results prove that Instagram’s explore page is not engaging enough
         for the average user. I figured that I could create a better system for
         how to narrow down the content on the explore page to be what users are
@@ -88,19 +97,23 @@
         will in turn help the company gain more profit. The fix could also help
         local businesses, because the type of customers who like their products
         would find the business easily through the system.
-      </p>
-      <p>
+      </div>
+
+      <div class="p-insta2">
         Users: According to Pew Research Center, the majority of Instagram’s
         users are between the age 18- to 29 (this is 71% of a nationally
         representative survey of 1,502 U.S. adults conducted via telephone from
         Jan. 25-Feb.8, 2021). I created a user persona to be able to better
         understand the average Instagram user:
-      </p>
-      <div class="cs-img">
-        <img src="images/Lisa.jpg" alt="Lisauser" />
       </div>
-      <h2>Process:</h2>
-      <h3>Step #1: User Flow</h3>
+    </div>
+
+    <div class="insta-img">
+      <img src="images/Lisa.jpg" alt="Lisauser" />
+    </div>
+    <div class="article-card">
+        <div class="overview">Process:</div>
+      <div class="h3-insta">Step #1: User Flow</div>
       <p>
         I started off by creating a user flow with screenshots of the original
         app and adding my own algorithm creator screens to understand how a user
@@ -109,10 +122,13 @@
         Discover Weekly feature where a user can control what music suggestions
         they would receive on a weekly basis by liking or disliking songs.
       </p>
-      <div class="cs-img">
-        <img src="images/userflow.jpg" alt="userflowinsta1" />
-      </div>
-      <h3>Step #2: Branding</h3>
+    </div>
+
+    <div class="insta-img">
+      <img src="images/userflow.jpg" alt="userflowinsta1" />
+    </div>
+    <div class="article-card">
+      <div class="h3-insta">Step #2: Branding</div>
       <p>
         In order to not run into copyright issues with Instagram, I decided to
         change the name to Pixr as I felt that it still conveyed the main
@@ -122,10 +138,13 @@
         font saira and poppins because they are neutral, legible, and have a
         rectangular form to them which fits the pixel theme.
       </p>
-      <div class="cs-img">
-        <img src="images/branding.jpg" alt="pixr" />
-      </div>
-      <h3>Step #3: Micro-interactions</h3>
+    </div>
+
+    <div class="insta-img">
+      <img src="images/branding.jpg" alt="pixr" />
+    </div>
+    <div class="article-card">
+      <div class="h3-insta">Step #3: Micro-interactions</div>
       <p>
         I then brainstormed micro-interactions that I could include within my
         design and sketched out 20 possible ideas. I decided on a trash can for
@@ -136,10 +155,12 @@
         interests best. I created 10 iterations of this idea. These were my top
         four options:
       </p>
-      <div class="cs-img">
-        <img src="images/Sketches.jpg" alt="instasketch" />
-      </div>
-      <p>
+    </div>
+    <div class="insta-img">
+      <img src="images/Sketches.jpg" alt="instasketch" />
+    </div>
+    <div class="article-card">
+        <div class="p-lone">
         I ended up deciding on the post turning into a small picture and falling
         into a heart if a user tapped it and the post crumpling up into a ball
         and falling into the trash can if a user tapped the trash. These give
@@ -150,43 +171,51 @@
         streamline the process of finding the content that fits a user’s
         interests best. I chose the Pixels in order to stay consistent with the
         logo and name of the app.
-      </p>
-      <h3>Step #4: Low Fidelity Wireframes</h3>
+      </div>
+      <div class="h3-insta">Step #4: Low Fidelity Wireframes</div>
       <p>
         I created low fidelity wireframes that I incorporated my final
         micro-interaction choices and placement of my algorithm curator in order
         to organize my content:
       </p>
-      <div class="cs-img">
-        <img src="images/lowfidelitywireframe.jpg" alt="lowfidelity" />
-      </div>
-      <h3>Step #4: High Fidelity Wireframes</h3>
+    </div>
+    <div class="insta-img">
+      <img src="images/lowfidelitywireframe.jpg" alt="lowfidelity" />
+    </div>
+    <div class="article-card">
+      <div class="h3-insta">Step #5: High Fidelity Wireframes</div>
       <p>
         Next I created high-fidelity wireframes that incorporated colored images
         of my final micro-interaction choices and placement of my algorithm
         curator in order to fully visualize my design before making the project
         screens:
       </p>
-      <div class="cs-img">
-        <img src="images/finalinstawireframe.jpg" alt="highfidelity" />
-      </div>
-      <h3>Step #6: After Effects Ready Project Screens</h3>
+    </div>
+    <div class="insta-img">
+      <img src="images/finalinstawireframe.jpg" alt="highfidelity" />
+    </div>
+    <div class="article-card">
+      <div class="h3-insta">Step #6: After Effects Ready Project Screens</div>
       <p>
         I refined my high fidelity project screens into templates that were
         ready to transfer into after effects, by using AEUX:
       </p>
-      <div class="cs-img">
-        <img src="images/projectscreensaeux.jpg" alt="screens" />
+    </div>
+    <div class="insta-img">
+      <img src="images/projectscreensaeux.jpg" alt="screens" />
+    </div>
+    <div class="article-card">
+      <div class="h3-insta">
+        Step #7: Animating the Micro-Interactions in After Effects
       </div>
-      <h3>Step #7: Animating the Micro-Interactions in After Effects</h3>
-      <p>
+      <div class="p-vid">
         I animated how the average user would interact with the app through
         swipes and short and long taps.
-      </p>
+      </div>
       <video controls autoplay poster="images/myvideo-poster.jpg">
         <source src="images/finalinstadesign.mp4" type="video/mp4" />
       </video>
-      <h2>Conclusion:</h2>
+      <div class="conclusion">Conclusion:</div>
       <p>
         Overall, this redesign encompasses the main features of Instagram and
         adds onto them with an algorithm curator and new micro-interactions that
