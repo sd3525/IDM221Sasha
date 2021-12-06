@@ -1,34 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <title>Tennis.com Redesign</title>
-</head>
-<body>
-    <h1> Tennis.com Redesign</h1>
-    <img src="images/Frame 12.2.png" alt="tennis">
-    <h2> Overview:</h2>
-    <p>Tennis.com is the Tennis Channel’s official website. It helps fans stay on top of tennis news like scores, rankings, tv scheduling, and more.</p>
-    <h2> Problem Statement</h2>
-    <p>The goal of my redesign was to help Tennis Channel earn more profit by keeping and gaining more customers on their website through creating a more intuitive design which would help the user accomplish their goals in a simple manner.</p>
-    <h2> The User:</h2>
-    <p>This website is geared towards tennis fans of all ages, who want to learn more about players, tournaments, and rankings. It also not only caters to users who are subscribed to the tv channel package, but also to users who just want to stay up to date with the tennis world.</p>
-    <h2>Process:</h2>
-    <h3>1. Understanding the problems with Tennis.com website:</h3>
-    <p>I used a heuristic analysis chart to pinpoint the problem areas of the website. Navigation, task orientation, and organization/credibility were the main issues.</p>
-    <p>Navigation: top menu bar is cut off</p>
-    <img src="images/menubar.png" alt="menubar">
-    <p>Task Orientation: Video stays at the bottom right of the screen and obstructs the view of articles and possible important information</p>
-    <img src="images/vidobstruct.png" alt="vid">
-    <p> Organization/credibility: important articles are mixed in with insignificant articles on the home page. Some articles are not even related to tennis</p>
-    <img src="images/irrelivant.png" alt="no">
-    <h3>Heuristic Analysis Chart</h3>
-    <p>I used excel to create a chart that showed problem areas in each category listed below. A friend ranked my website out of 12 before and after I re-designed it in order to create the chart.</p>
-    <img src="images/heuristic.png" alt="heuristic">
-    <h3>3. Sketching web, iPad, and mobile layouts:</h3>
-    <p>I brain stormed and sketched out 8 different home and article page layouts for web, iPad, and mobile.  These were some of the sketches that I ended up using in my design:</p>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--    Made by Erik Terwan    -->
+    <!--   24th of November 2015   -->
+    <!--        MIT License        -->
+    <nav role="navigation">
+      <div id="menuToggle">
+        <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+        <input type="checkbox" />
+
+        <!--
+      Some spans to act as a hamburger.
+      
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+      <ul id="menu">
+        <a href="Portfoliohomer.html"><li>Work</li></a>
+        <a href="Resume.html"><li>Resume</li></a>
+        <a href="photo.html"><li>Photography</li></a>
+      </ul>
+      </div>
+    </nav>
+
+    <div class="container2">
+      <img src="images/Artboard 1.png" alt="logo" />
+    </div>
+
+    <!-- <div class="header">
+      <div class="logo"></div>
+      <div class="word-spacing">
+        <div>Work</div>
+        <div>Resume</div>
+        <div>Blog</div>
+      </div>
+    </div> -->
+    <div class="Title">Tennis.com Redesign:</div>
+    <div class="insta-title">
+        <img src="images/Frame-12.png" alt="tennis" />
+    </div>
+    <div class="article-card">
+        <div class="overview">Overview:</div>
+        <div class="p-instadif">
+            Tennis.com is the Tennis Channel’s official website. It helps fans stay on
+            top of tennis news like scores, rankings, tv scheduling, and more.
+        </div>
+        <div class="h2-insta">Problem Statement:</div>
+        <div class="p-instadif">
+            The goal of my redesign was to help Tennis Channel earn more profit by
+            keeping and gaining more customers on their website through creating a
+            more intuitive design which would help the user accomplish their goals in
+            a simple manner.
+        </div>
+          
+        <div class="h2-insta">The User:</div>
+        <div class="p-instadif">
+            This website is geared towards tennis fans of all ages, who want to learn
+            more about players, tournaments, and rankings. It also not only caters to
+            users who are subscribed to the tv channel package, but also to users who
+            just want to stay up to date with the tennis world.
+        </div>
+        <div class="h2-insta">Process:</div>
+        <div class="h3-insta">1. Understanding the problems with Tennis.com website:</div>
+        <p>
+          I used a heuristic analysis chart to pinpoint the problem areas of the
+          website. Navigation, task orientation, and organization/credibility were
+          the main issues.
+        </p>
+        <p>Navigation: top menu bar is cut off</p>
+    </div>
+        <div class="insta-img">
+            <img src="images/header.jpg" alt="menubar" />
+        </div>
+        <div class="article-card">
+        <p>
+          Task Orientation: Video stays at the bottom right of the screen and
+          obstructs the view of articles and possible important information
+        </p>
+        </div>
+        <div class="insta-img">
+            <img src="images/taskori.jpg" alt="vid" />
+        </div>
+        <div class="article-card">
+        <p>
+          Organization/credibility: important articles are mixed in with
+          insignificant articles on the home page. Some articles are not even
+          related to tennis
+        </p>
+        </div>
+        <div class="insta-img">
+            <img src="images/nishi.jpg" alt="nishikori" />
+        </div>
+    <div class="article-card">
+        <div class="h3-tennis">2. Heuristic Analysis Chart:</div>
+        <p>
+          I used excel to create a chart that showed problem areas in each category
+          listed below. A friend ranked my website out of 12 before and after I
+          re-designed it in order to create the chart.
+        </p>
+    </div>
+        <div class="insta-img">
+        <img src="images/heuristic.jpg" alt="heuristic" />
+        </div>
+    <div class="article-card">
+        <div class="h3-tennis">3. Sketching web, iPad, and mobile layouts:</div>
+        <p>
+          I brain stormed and sketched out 8 different home and article page layouts
+          for web, iPad, and mobile. These were some of the sketches that I ended up
+          using in my design:
+        </p>
+    </div>
+    <div class="tennis-img">
+        <img src="images/sketchbox.jpg" alt="sketch2" />
+    </div>
+    <div class="insta-img">
+        <img src="images/sketchcircle.jpg" alt="sketch2" />
+    </div>
+    <div class="article-card">
+        <p>
+            I felt that this layout helped with discoverability, because right from the home page the user can easily see all the categories of what they could explore on the website without any distractions or features that obstruct the view of important information. For the article page, I placed the featured articles on the right side of the screen allow for better use of space and easy discoverability.
+        </p>
+        <div class="h3-insta">4. Prototype:</div>
+        <p>
+            I then made low-fidelity wireframes to map out where everything would be placed, so that I could  get a good idea of how my website would look at its basic form.
+        </p>
+    </div>
+    <div class="tennis-img">
+        <img src="images/desktop.jpg" alt="desktopwireframe" />
+    </div>
+    <div class="tennis-img">
+        <img src="images/ipadwireframe.jpg" alt="ipadwireframe" />
+    </div>
+    <div class="insta-img">
+        <img src="images/mobilewireframe.jpg" alt="mobilewireframe" />
+    </div>
+    <div class="article-card">
+        <div class="h3-insta">5. High-Fidelity Wireframes:</div>
+        <p>I then created high-fidelity wireframes with animations in Figma. I made the boxes green, orange, purple, and blue because of the colors of the courts at the 4 main Opens (US, French, Wimbledon, and Australian) and diagonal white lines separating them to mimic a tennis court. I also chose a neon green accent color to replicate the shade of a tennis ball and added a bouncing ball featured article animation, to intrigue the user and make them want to click into more articles.
+        </p>
+        <div class="p-vid">
+        <div class="h3-insta2">Web:</div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/K02RaNaYESM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="p-vid">
+            <div class="h3-insta2">Ipad:</div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lQlfwlnxHrY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="p-vid">
+            <div class="h3-insta2">Mobile:</div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/840wWROMme8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+<div class="contact-res">Contact Me:</div>
+<div class="mail">sd3525@drexel.edu</div>
+<div class="container">
+    <a href="https://www.instagram.com/photondesignbysash/"> <img src="images/instaicon.png" alt="insta" /> </a><div class="image"> </div>
+    <a href="https://www.linkedin.com/in/sasha-demo-9277921b7/"> <img src="images/linkin.png" alt="linkedin" /> </a><div class="image"> </div>
+  </body>
 </html>

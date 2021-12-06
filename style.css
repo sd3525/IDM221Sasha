@@ -324,6 +324,12 @@ a:link {
     padding-left: 1rem;
   }
 
+  .tennis-img {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+  }
+
   .sc-img {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -348,7 +354,7 @@ a:link {
   padding-top: 3.5rem;
   padding-bottom: 1rem;
   padding-left: 2rem;
-  color: rgb(98, 137, 232)
+  color: rgb(98, 137, 232);
 }
 
 /* Resume contact spacing */
@@ -356,7 +362,7 @@ a:link {
     font-size: 1.5rem;
     padding-bottom: 1rem;
     padding-left: 2rem;
-    color: rgb(98, 137, 232)
+    color: rgb(98, 137, 232);
   }
 
 .mail {
@@ -408,6 +414,15 @@ a:link {
 
 .p-sc {
     margin-top: 1.5rem;
+}
+
+.q {
+    color: #ffb2ad;
+}
+
+.a {
+    color: rgb(98, 137, 232);
+
 }
 
 .p-sc2 {
@@ -515,6 +530,18 @@ a:link {
 .h3-insta{
     font-size: 1.25rem;
     margin-top: 1rem;
+    color: rgb(98, 137, 232);
+}
+
+.h3-tennis{
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    color: rgb(98, 137, 232);
+}
+
+.h3-tennis2{
+    font-size: 1.10rem;
+    margin-top: 1.5rem;
     color: rgb(98, 137, 232);
 }
 
