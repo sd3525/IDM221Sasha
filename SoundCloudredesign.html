@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
-    <title> SoundCloud Collaboration Experience Redesign</title>
+    <title>SoundCloud Collaboration Experience Redesign</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,236 +15,468 @@
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
       rel="stylesheet"
     />
-    </head>
-    <body>
-
-     <!--    Made by Erik Terwan    -->
-<!--   24th of November 2015   -->
-<!--        MIT License        -->
-<nav role="navigation">
-    <div id="menuToggle">
-      <!--
+  </head>
+  <body>
+    <!--    Made by Erik Terwan    -->
+    <!--   24th of November 2015   -->
+    <!--        MIT License        -->
+    <nav role="navigation">
+      <div id="menuToggle">
+        <!--
       A fake / hidden checkbox is used as click reciever,
       so you can use the :checked selector on it.
       -->
-      <input type="checkbox" />
-      
-      <!--
+        <input type="checkbox" />
+
+        <!--
       Some spans to act as a hamburger.
       
       They are acting like a real hamburger,
       not that McDonalds stuff.
       -->
-      <span></span>
-      <span></span>
-      <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
 
-      
-      <!--
+        <!--
       Too bad the menu has to be inside of the button
       but hey, it's pure CSS magic.
       -->
-      <ul id="menu">
-        <a href="portfoliohomer.html"><li>Work</li></a>
-        <a href="resume.html"><li>Resume</li></a>
-        <a href="photo.html"><li>Photography</li></a>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="container2">
-    <a href="portfoliohomer.html"><img src="images/artboard 1.png" alt="logo" /></a>
-  </div>
-
-    <!-- <div class="header">
-      <div class="logo"></div>
-      <div class="word-spacing">
-        <div>Work</div>
-        <div>Resume</div>
-        <div>Blog</div>
+        <ul id="menu">
+          <a href="index.html"><li>Work</li></a>
+          <a href="resume.html"><li>Resume</li></a>
+          <a href="photo.html"><li>Photography</li></a>
+        </ul>
       </div>
-    </div> -->
+    </nav>
+
+    <div class="container2">
+      <a href="index.html"
+        ><img src="https://www.sashademo.com/images//artboard 1.png" alt="logo"
+      /></a>
+    </div>
 
     <div class="Title">SoundCloud Collaboration Experience Redesign:</div>
     <div class="insta-title">
-        <img src="images/frame10.png" alt="soundcloudpic" /> 
+      <img
+        src="https://www.sashademo.com/images//frame10.png"
+        alt="soundcloudpic"
+      />
     </div>
     <div class="article-card">
-        <div class="overview">My Inspiration:</div>
-        <div class="p-instadif">
-             I was introduced to SoundCloud by a friend who used it as a platform to post music that he produced. Although I loved how there were lots of small artists on it and I could listen to music which was not on Spotify or Apple Music, the usability of the app troubled me. I had always found it challenging to find small artists who had the specific style of music which I enjoyed. I then began to wonder that if I found it challenging to find these small artists, was SoundCloud truly doing a good enough job in helping these small artists to gain enough exposure? This thought led me to actually redesign the mobile application in a way that I believed would be the best for small artists to gain visibility through SoundCloud, which was through the collaboration experience for artists and an easier way for users to discover small artists.
-         </div>
-            <div class="h2-sc">
-                Understanding SoundClouds Mission:
-            </div>
+      <div class="overview">My Inspiration:</div>
+      <div class="p-instadif">
+        I was introduced to SoundCloud by a friend who used it as a platform to
+        post music that he produced. Although I loved how there were lots of
+        small artists on it and I could listen to music which was not on Spotify
+        or Apple Music, the usability of the app troubled me. I had always found
+        it challenging to find small artists who had the specific style of music
+        which I enjoyed. I then began to wonder that if I found it challenging
+        to find these small artists, was SoundCloud truly doing a good enough
+        job in helping these small artists to gain enough exposure? This thought
+        led me to actually redesign the mobile application in a way that I
+        believed would be the best for small artists to gain visibility through
+        SoundCloud, which was through the collaboration experience for artists
+        and an easier way for users to discover small artists.
+      </div>
+      <div class="h2-sc">Understanding SoundClouds Mission:</div>
     </div>
-        <div class="insta-img">
-        <img src="images/scmission.jpg" alt="soundcloudmission">
-        </div>
-        <div class="article-card">
-            <div class="p-instadif"> After reading through what appeared to be their mission statement, the words “most diverse creator community on earth”, “share music and connect directly with artists, unearth breakthrough tracks, open platform that directly connects creators and their fans across the globe , and receive detailed stats and feedback from the SoundCloud community” stood out to me the most. Rather than focusing on what I thought was best for the app, I took the perspective of the creators and improved features which would best fit their motives.</div>
-            <div class="h2-sc">Collaborator Experience Survey: </div>
-            <div class="p-vid"> Based on my research, I put together key questions to gain a better understanding of the issues small artists face when trying to find a collaboration partner. I emailed the survey to the small artists I knew and got the answers from six of them. I analyzed the responses to get a quick understanding of the biggest pain points (blue is yes and red is no).</div>
-                <li> How many times have you collaborated? (blue is 1 time, red is 2 times, and yellow is 3 times or more).</li>
-                <li> Artists of a similar genre to yourself easy to find?</li> 
-                <li> You find the collaboration search process difficult?</li> 
-                <li> You collaborated with any other artists or are you currently looking for any collaboration opportunities?</li>
-            </div>
-            <div class="sc-img">
-                <img src="images/data1.jpg" alt="data1">
-            </div>
-            <div class="article-card">
-                <li> Did you notice an increase in followers right after your collaboration?</li>
-                <li> Do you want to pursue music as a career?</li>
-                <li> Has anybody ever asked you to collaborate?</li> 
-            </div>
-            <div class="sc-img">
-                <img src="images/data2.jpg" alt="data2">
-            </div>
-            <div class="article-card">
-                <li> Can you list all of the platforms (or ways) you use to find collaboration opportunities (SoundCloud, Facebook, etc)</li>
-            </div>
-            <div class="sc-img">
-                <img src="images/data3.jpg" alt="data3">
-            </div>
-            <div class="article-card">
-                <li> Do you take into consideration any of these things when searching for a collaboration opportunity?</li>
-            </div>
-            <div class="sc-img2">
-                <img src="images/data4.jpg" alt="data4">
-            </div>
-            <div class="article-card">
-                <div class="p-instadif"> Through the data that I gained from the survey, it was evident to me that there was room for improvement in SoundCloud design to help small artists to gain more exposure through the app and make the collaboration process less difficult.</div>
-                <div class="h2-sc"> Interviews: </div>
-                <p> Through the survey I was able to get a good idea of whether or not my plan for the app was on the right track. A lot of ideas needed to be expanded on, so I created interview questions and video called each person to get a better understanding. Below is an example of the questions and answers that helped me to shape my design:</p>
-                <div class="h3-sc">Person #1: </div>
-                
-                <div class="p-sc"><div class="q">Q:</div> Why do you prefer to find collaborations and share music through SoundCloud? Can you tell me some of your most used features? Why do you find it/them useful?</div>
-                
-                <div class="p-sc"><div class="a">A:</div> I mainly use SoundCloud’s stream counter and date posted features to determine how legitimate an artist is quickly.</div>
-        
-                <div class="p-sc"><div class="q">Q:</div> Can you walk me through your last experience with finding a collab opportunity?</div>
-                    
-                <div class="p-sc"><div class="a">A:</div>I found it in person and had a freestyle with him, but then I also listened to his music on SoundCloud to check the amount of plays he had on his songs to see whether or not he was at my level.</div>
-                    
-                <div class="p-sc"><div class="q">Q:</div> Can you tell me why you said that artists of a similar genre to you are hard to find?</div>
-                    
-                <div class="p-sc"><div class="a">A:</div> There is no explore page for a specific genre and the search engine needs work.</div>
-                    
-                <div class="p-sc"><div class="q">Q:</div> Can you quickly find out if another artist meets your requirements or do you have to do a lot of digging?</div>
-                    
-                <div class="p-sc"><div class="a">A:</div> It takes a pretty long time to see if they fit my style and are worth collabing with.</div>
-                    
-                <div class="p-sc"><div class="q">Q:</div> Were the people who asked you to collaborate friends? If not, how do you believe they discovered your music (app)?</div>
-                    
-                <div class="p-sc"><div class="a">A:</div>Through Instagram</div>
-                    
-                <div class="p-sc"><div class="q">Q:</div> Where did the people who asked you to collaborate, reach out to you? (SMS, Youtube, SoundCloud messenger, etc)?</div>
-                    
-                <div class="p-sc"><div class="a">A:</div>In person.</div> 
-                    
-                <div class="p-sc"><div class="q">Q:</div> Why do you specifically use SoundCloud for collaborations?</div>
-                    
-                <div class="p-sc"><div class="a">A:</div> I mainly use it to listen to artists to understand their style and their level.</div>
-                    
-                <div class="p-sc">Through the interviews, I was able to further understand the process and issues small artists faced in order to find collaborations. This gave me get ideas on how my design could help them to streamline the process.</div>
-                <div class="h2-sc3">Brief</div> 
-                <div class="p-instadif">After brainstorming and going through all of my results from the survey and interview, I came up with the final brief to formalize my ideas.</div>
-                <div class="p-sc2">
-                <a href="https://sd3525.files.wordpress.com/2021/10/soundcloud-app-redesign-brief-1.pdf" target="SoundCloud Brief"><div class="a"><u>SoundCloud Brief</u></div> </a></div>
-                <div class="h2-sc">Understanding the Userflow</div>
-                <div class="p-sc3">By using Screenshots from SoundCloud’s mobile application, I was able to gain a better understanding of how a user goes from screen to screen in order to incorporate my design into the existing flow.</div>
-            </div>
-            <div class="insta-img">
-                <img src="images/userflow.jpg" alt="userflowsc">
-            </div>
-            <div class="article-card">
-                <div class="h2-sc2">Low Fidelity Wireframe</div> 
-                <div class="p-sc3">In order to map out my new design, I created a low fidelity wireframe that helped me to visualize the new process and ensure that new features were properly incorporated.</div>
-            </div>
-            <div class="insta-img">
-                <img src="images/lowfidelitywireframe.jpg" alt="lowfidelitysc">
-            </div>
-            <div class="article-card">
-                <div class="h2-sc2">Observation of SoundCloud’s Mobile App Screens</div>
-                <div class="p-sc3">I analyzed the existing SoundCloud layout and design in order to preserve the style throughout my redesign. Below are screenshots of the current app:</div>
-            </div>
-            <div class="insta-img">
-                <img src="images/soundcloudscreens.jpg" alt="scsc">
-            </div>
-            <div class="article-card">
-                <div class="h2-sc2">High Fidelity Design</div> 
-                <div class="h3-sc">On-boarding</div> 
-                <p> When signing into the app, the user would get the choice to sign in or create a new account. Since I decided to only cater my design to new users, the only option would be to create an account. This would then lead to either signing up as a listener or a creator since the two experiences are very different for my app.</p>
-            </div>
-            <div class="insta-img">
-                <img src="images/homesc.jpg" alt="homesc">
-            </div>
-            <div class="article-card">
-                <div class="p-sc4">If the user selects listener, the next step would be to pick a genre of music which they like to listen. When the listener selects a genre, the box will get outlined in orange. This feature is beneficial for the listener because they can be exposed to more of the music that they enjoy on their homepage, but it is also beneficial to small artists because it narrows the range of music that a user can see, making it more likely for the small artist to be discovered.</div>
-            </div>
-            <div class="insta-img">
-                <img src="images/listenerlisten.jpg" alt="listen1">
-            </div>
-            <div class="article-card">
-                <div class="p-sc4">If a user selects the creator option on the second screen, they would get the option to pick a genre which they make music in. When the user selects a genre, the box will be outlined in orange.</div>
-            </div>
-            <div class="insta-img">
-                <img src="images/create1.jpg" alt="create1">
-            </div>
-            <div class="article-card">
-                <div class="p-sc4">After the sign in process, both the creator and the listener will be brought to the home screen which includes a new feature that I created, “Best Match”. Best Match helps the listener find small artists with the specific style of music that they want. Best Match helps creators to find the best possible collaboration partner.</div>
-            </div>
-            <div class="insta-img">
-                <img src="images/bestmatch1.jpg" alt="Bestmatch">
-            </div>
-            <div class="article-card">
-                <div class="h3-insta">Best Match: Listener</div>  
-                <p> Step 1, 2, and 3 all narrow the results because a music genre and style can include various moods to it, so these features guarantee the user satisfaction and give way for them to find small artists in step 4. Step 4 includes a star ranking system which is based on what artists fit the users criteria best at 5 stars and the worst at 1 star.</p>
-            </div>
-            <div class="insta-img">
-                <img src="images/stylelistener.jpg" alt="stylelistener">
-                <img src="images/step345listen.jpg" alt="step345">
-            </div>
-            <div class="article-card">
-                <div class="h3-insta"> Best Match: Creator</div>
-           <p> The first two steps of finding the best collaboration partner for the creator include picking what type of creator and genre of music they want their collaboration partner to specialize in.</p>
-           </div>
-           <div class="insta-img">
-            <img src="images/12create.jpg" alt="create12">
-           </div>
-           <div class="article-card">
-            <div class="p-sc4">The 3rd step is used in order to see how many people are near the creators area. The creator gets the freedom to choose how big or small the radius of creators can be and how many people are in their radius. The pins in the last slide are clickable so the creator can go to the specific artists page.</div>
-           </div>
-           <div class="insta-img">
-            <img src="images/map.jpg" alt="map">
-           </div>
-           <div class="article-card">
-            <div class="p-sc4">For the 4th step, the user can select the followers and plays range. Based on what people have told me, this feature is useful for them to understand the level of skill the artist has and whether or not they are a good fit for them. Step 5 is choosing the best match through a star rank system which is based on who fits the user’s criteria the most and will then lead them to the artist’s page.</div>
-           </div>
-           <div class="insta-img">
-            <img src="images/creator345.jpg" alt="create345">
-           </div>
-           <div class="article-card">
-            <div class="h3-insta">Artists You May Like</div> 
-            <p> On the home page, I created another feature which is based on SoundCloud’s “More of what you like” section where they suggest songs based on what the user has liked or played. I based my section on artists who collaborated with the artists of songs the user has recently played or liked. This helps small artists gain more exposure and listeners to find more songs that they could like.</p>
-           </div>
-           <div class="insta-img">
-            <img src="images/finalimagesc.jpg" alt="notfinalhomesc">
-           </div>
-           <div class="article-card">
-            <div class="h3-insta">Explore Page</div> 
-            <p> Artists will also be able to gain exposure through the explore page. Before the user starts typing, they will see rising artists from each genre of music. After the user enters the artist or song, the search engine will show that artist’s collaborators and they will have a star rank next to their name. For creators, it reveals how good of a collaboration partner they would be and for listeners it reveals how well the artist would fit their music taste.</p>
-           </div>
-           <div class="insta-title2">
-            <img src="images/realfinalsc.jpg" alt="realfinalsc">
-           </div>
-           <div class="contact-res">Contact Me:</div>
+    <div class="insta-img">
+      <img
+        src="https://www.sashademo.com/images//scmission.jpg"
+        alt="soundcloudmission"
+      />
+    </div>
+    <div class="article-card">
+      <div class="p-instadif">
+        After reading through what appeared to be their mission statement, the
+        words “most diverse creator community on earth”, “share music and
+        connect directly with artists, unearth breakthrough tracks, open
+        platform that directly connects creators and their fans across the globe
+        , and receive detailed stats and feedback from the SoundCloud community”
+        stood out to me the most. Rather than focusing on what I thought was
+        best for the app, I took the perspective of the creators and improved
+        features which would best fit their motives.
+      </div>
+      <div class="h2-sc">Collaborator Experience Survey:</div>
+      <div class="p-vid">
+        Based on my research, I put together key questions to gain a better
+        understanding of the issues small artists face when trying to find a
+        collaboration partner. I emailed the survey to the small artists I knew
+        and got the answers from six of them. I analyzed the responses to get a
+        quick understanding of the biggest pain points (blue is yes and red is
+        no).
+      </div>
+      <li>
+        How many times have you collaborated? (blue is 1 time, red is 2 times,
+        and yellow is 3 times or more).
+      </li>
+      <li>Artists of a similar genre to yourself easy to find?</li>
+      <li>You find the collaboration search process difficult?</li>
+      <li>
+        You collaborated with any other artists or are you currently looking for
+        any collaboration opportunities?
+      </li>
+    </div>
+    <div class="sc-img">
+      <img src="https://www.sashademo.com/images//data1.jpg" alt="data1" />
+    </div>
+    <div class="article-card">
+      <li>
+        Did you notice an increase in followers right after your collaboration?
+      </li>
+      <li>Do you want to pursue music as a career?</li>
+      <li>Has anybody ever asked you to collaborate?</li>
+    </div>
+    <div class="sc-img">
+      <img src="https://www.sashademo.com/images//data2.jpg" alt="data2" />
+    </div>
+    <div class="article-card">
+      <li>
+        Can you list all of the platforms (or ways) you use to find
+        collaboration opportunities (SoundCloud, Facebook, etc)
+      </li>
+    </div>
+    <div class="sc-img">
+      <img src="https://www.sashademo.com/images//data3.jpg" alt="data3" />
+    </div>
+    <div class="article-card">
+      <li>
+        Do you take into consideration any of these things when searching for a
+        collaboration opportunity?
+      </li>
+    </div>
+    <div class="sc-img2">
+      <img src="https://www.sashademo.com/images//data4.jpg" alt="data4" />
+    </div>
+    <div class="article-card">
+      <div class="p-instadif">
+        Through the data that I gained from the survey, it was evident to me
+        that there was room for improvement in SoundCloud design to help small
+        artists to gain more exposure through the app and make the collaboration
+        process less difficult.
+      </div>
+      <div class="h2-sc">Interviews:</div>
+      <p>
+        Through the survey I was able to get a good idea of whether or not my
+        plan for the app was on the right track. A lot of ideas needed to be
+        expanded on, so I created interview questions and video called each
+        person to get a better understanding. Below is an example of the
+        questions and answers that helped me to shape my design:
+      </p>
+      <div class="h3-sc">Person #1:</div>
+
+      <div class="p-sc">
+        <div class="q">Q:</div>
+        Why do you prefer to find collaborations and share music through
+        SoundCloud? Can you tell me some of your most used features? Why do you
+        find it/them useful?
+      </div>
+
+      <div class="p-sc">
+        <div class="a">A:</div>
+        I mainly use SoundCloud’s stream counter and date posted features to
+        determine how legitimate an artist is quickly.
+      </div>
+
+      <div class="p-sc">
+        <div class="q">Q:</div>
+        Can you walk me through your last experience with finding a collab
+        opportunity?
+      </div>
+
+      <div class="p-sc">
+        <div class="a">A:</div>
+        I found it in person and had a freestyle with him, but then I also
+        listened to his music on SoundCloud to check the amount of plays he had
+        on his songs to see whether or not he was at my level.
+      </div>
+
+      <div class="p-sc">
+        <div class="q">Q:</div>
+        Can you tell me why you said that artists of a similar genre to you are
+        hard to find?
+      </div>
+
+      <div class="p-sc">
+        <div class="a">A:</div>
+        There is no explore page for a specific genre and the search engine
+        needs work.
+      </div>
+
+      <div class="p-sc">
+        <div class="q">Q:</div>
+        Can you quickly find out if another artist meets your requirements or do
+        you have to do a lot of digging?
+      </div>
+
+      <div class="p-sc">
+        <div class="a">A:</div>
+        It takes a pretty long time to see if they fit my style and are worth
+        collabing with.
+      </div>
+
+      <div class="p-sc">
+        <div class="q">Q:</div>
+        Were the people who asked you to collaborate friends? If not, how do you
+        believe they discovered your music (app)?
+      </div>
+
+      <div class="p-sc">
+        <div class="a">A:</div>
+        Through Instagram
+      </div>
+
+      <div class="p-sc">
+        <div class="q">Q:</div>
+        Where did the people who asked you to collaborate, reach out to you?
+        (SMS, Youtube, SoundCloud messenger, etc)?
+      </div>
+
+      <div class="p-sc">
+        <div class="a">A:</div>
+        In person.
+      </div>
+
+      <div class="p-sc">
+        <div class="q">Q:</div>
+        Why do you specifically use SoundCloud for collaborations?
+      </div>
+
+      <div class="p-sc">
+        <div class="a">A:</div>
+        I mainly use it to listen to artists to understand their style and their
+        level.
+      </div>
+
+      <div class="p-sc">
+        Through the interviews, I was able to further understand the process and
+        issues small artists faced in order to find collaborations. This gave me
+        get ideas on how my design could help them to streamline the process.
+      </div>
+      <div class="h2-sc3">Brief</div>
+      <div class="p-instadif">
+        After brainstorming and going through all of my results from the survey
+        and interview, I came up with the final brief to formalize my ideas.
+      </div>
+      <div class="p-sc2">
+        <a
+          href="https://sd3525.files.wordpress.com/2021/10/soundcloud-app-redesign-brief-1.pdf"
+          target="SoundCloud Brief"
+          ><div class="a"><u>SoundCloud Brief</u></div>
+        </a>
+      </div>
+      <div class="h2-sc">Understanding the Userflow</div>
+      <div class="p-sc3">
+        By using Screenshots from SoundCloud’s mobile application, I was able to
+        gain a better understanding of how a user goes from screen to screen in
+        order to incorporate my design into the existing flow.
+      </div>
+    </div>
+    <div class="insta-img">
+      <img
+        src="https://www.sashademo.com/images//userflow.jpg"
+        alt="userflowsc"
+      />
+    </div>
+    <div class="article-card">
+      <div class="h2-sc2">Low Fidelity Wireframe</div>
+      <div class="p-sc3">
+        In order to map out my new design, I created a low fidelity wireframe
+        that helped me to visualize the new process and ensure that new features
+        were properly incorporated.
+      </div>
+    </div>
+    <div class="insta-img">
+      <img
+        src="https://www.sashademo.com/images//lowfidelitywireframe.jpg"
+        alt="lowfidelitysc"
+      />
+    </div>
+    <div class="article-card">
+      <div class="h2-sc2">Observation of SoundCloud’s Mobile App Screens</div>
+      <div class="p-sc3">
+        I analyzed the existing SoundCloud layout and design in order to
+        preserve the style throughout my redesign. Below are screenshots of the
+        current app:
+      </div>
+    </div>
+    <div class="insta-img">
+      <img
+        src="https://www.sashademo.com/images//soundcloudscreens.jpg"
+        alt="scsc"
+      />
+    </div>
+    <div class="article-card">
+      <div class="h2-sc2">High Fidelity Design</div>
+      <div class="h3-sc">On-boarding</div>
+      <p>
+        When signing into the app, the user would get the choice to sign in or
+        create a new account. Since I decided to only cater my design to new
+        users, the only option would be to create an account. This would then
+        lead to either signing up as a listener or a creator since the two
+        experiences are very different for my app.
+      </p>
+    </div>
+    <div class="insta-img">
+      <img src="https://www.sashademo.com/images//homesc.jpg" alt="homesc" />
+    </div>
+    <div class="article-card">
+      <div class="p-sc4">
+        If the user selects listener, the next step would be to pick a genre of
+        music which they like to listen. When the listener selects a genre, the
+        box will get outlined in orange. This feature is beneficial for the
+        listener because they can be exposed to more of the music that they
+        enjoy on their homepage, but it is also beneficial to small artists
+        because it narrows the range of music that a user can see, making it
+        more likely for the small artist to be discovered.
+      </div>
+    </div>
+    <div class="insta-img">
+      <img
+        src="https://www.sashademo.com/images//listenerlisten.jpg"
+        alt="listen1"
+      />
+    </div>
+    <div class="article-card">
+      <div class="p-sc4">
+        If a user selects the creator option on the second screen, they would
+        get the option to pick a genre which they make music in. When the user
+        selects a genre, the box will be outlined in orange.
+      </div>
+    </div>
+    <div class="insta-img">
+      <img src="https://www.sashademo.com/images//create1.jpg" alt="create1" />
+    </div>
+    <div class="article-card">
+      <div class="p-sc4">
+        After the sign in process, both the creator and the listener will be
+        brought to the home screen which includes a new feature that I created,
+        “Best Match”. Best Match helps the listener find small artists with the
+        specific style of music that they want. Best Match helps creators to
+        find the best possible collaboration partner.
+      </div>
+    </div>
+    <div class="insta-img">
+      <img
+        src="https://www.sashademo.com/images//bestmatch1.jpg"
+        alt="Bestmatch"
+      />
+    </div>
+    <div class="article-card">
+      <div class="h3-insta">Best Match: Listener</div>
+      <p>
+        Step 1, 2, and 3 all narrow the results because a music genre and style
+        can include various moods to it, so these features guarantee the user
+        satisfaction and give way for them to find small artists in step 4. Step
+        4 includes a star ranking system which is based on what artists fit the
+        users criteria best at 5 stars and the worst at 1 star.
+      </p>
+    </div>
+    <div class="insta-img">
+      <img
+        src="https://www.sashademo.com/images//stylelistener.jpg"
+        alt="stylelistener"
+      />
+      <img
+        src="https://www.sashademo.com/images//step345listen.jpg"
+        alt="step345"
+      />
+    </div>
+    <div class="article-card">
+      <div class="h3-insta">Best Match: Creator</div>
+      <p>
+        The first two steps of finding the best collaboration partner for the
+        creator include picking what type of creator and genre of music they
+        want their collaboration partner to specialize in.
+      </p>
+    </div>
+    <div class="insta-img">
+      <img
+        src="https://www.sashademo.com/images//12create.jpg"
+        alt="create12"
+      />
+    </div>
+    <div class="article-card">
+      <div class="p-sc4">
+        The 3rd step is used in order to see how many people are near the
+        creators area. The creator gets the freedom to choose how big or small
+        the radius of creators can be and how many people are in their radius.
+        The pins in the last slide are clickable so the creator can go to the
+        specific artists page.
+      </div>
+    </div>
+    <div class="insta-img">
+      <img src="https://www.sashademo.com/images//map.jpg" alt="map" />
+    </div>
+    <div class="article-card">
+      <div class="p-sc4">
+        For the 4th step, the user can select the followers and plays range.
+        Based on what people have told me, this feature is useful for them to
+        understand the level of skill the artist has and whether or not they are
+        a good fit for them. Step 5 is choosing the best match through a star
+        rank system which is based on who fits the user’s criteria the most and
+        will then lead them to the artist’s page.
+      </div>
+    </div>
+    <div class="insta-img">
+      <img
+        src="https://www.sashademo.com/images//creator345.jpg"
+        alt="create345"
+      />
+    </div>
+    <div class="article-card">
+      <div class="h3-insta">Artists You May Like</div>
+      <p>
+        On the home page, I created another feature which is based on
+        SoundCloud’s “More of what you like” section where they suggest songs
+        based on what the user has liked or played. I based my section on
+        artists who collaborated with the artists of songs the user has recently
+        played or liked. This helps small artists gain more exposure and
+        listeners to find more songs that they could like.
+      </p>
+    </div>
+    <div class="insta-img">
+      <img
+        src="https://www.sashademo.com/images//finalimagesc.jpg"
+        alt="notfinalhomesc"
+      />
+    </div>
+    <div class="article-card">
+      <div class="h3-insta">Explore Page</div>
+      <p>
+        Artists will also be able to gain exposure through the explore page.
+        Before the user starts typing, they will see rising artists from each
+        genre of music. After the user enters the artist or song, the search
+        engine will show that artist’s collaborators and they will have a star
+        rank next to their name. For creators, it reveals how good of a
+        collaboration partner they would be and for listeners it reveals how
+        well the artist would fit their music taste.
+      </p>
+    </div>
+    <div class="insta-title2">
+      <img
+        src="https://www.sashademo.com/images//realfinalsc.jpg"
+        alt="realfinalsc"
+      />
+    </div>
+    <div class="contact-res">Contact Me:</div>
     <div class="mail">sd3525@drexel.edu</div>
     <div class="container">
-        <a href="https://www.instagram.com/photondesignbysash/"> <img src="images/instaicon.png" alt="insta" /> </a><div class="image"> </div>
-        <a href="https://www.linkedin.com/in/sasha-demo-9277921b7/"> <img src="images/linkin.png" alt="linkedin" /> </a><div class="image"> </div>
+      <a href="https://www.instagram.com/photondesignbysash/">
+        <img
+          src="https://www.sashademo.com/images//instaicon.png"
+          alt="insta"
+        />
+      </a>
+      <div class="image"></div>
+      <a href="https://www.linkedin.com/in/sasha-demo-9277921b7/">
+        <img
+          src="https://www.sashademo.com/images//linkin.png"
+          alt="linkedin"
+        />
+      </a>
+      <div class="image"></div>
     </div>
-      
-</body>
+  </body>
 </html>
